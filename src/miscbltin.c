@@ -221,7 +221,7 @@ out:
  * umask builtin
  *
  * This code was ripped from pdksh 5.2.14 and hacked for use with
- * dash by Herbert Xu.
+ * mjsh by Herbert Xu.
  *
  * Public domain.
  */

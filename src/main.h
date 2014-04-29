@@ -44,9 +44,9 @@ extern int shlvl;
 
 #ifdef __GLIBC__
 /* glibc sucks */
-extern int *dash_errno;
+extern int *mjsh_errno;
 #undef errno
-#define errno (*dash_errno)
+#define errno (*mjsh_errno)
 #endif
 
 void readcmdfile(char *);
